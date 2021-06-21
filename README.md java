@@ -1,10 +1,24 @@
-- 👋 Hi, I’m @veeru371
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+Import java.until.*,
+Public class file 1
+Public static void main (strings []args)
+{
+Int n,e_sum=0,o_sum=0;
+Scanner object = new scanner(system.in);
 
-<!---
-veeru371/veeru371 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+System.out.println("Enter the array siZe");
+ n=object.next int();
+  Int a[] = new int[n]
+  for(i=0;i<n;i++)
+   {
+   a[i] = object.next int ;
+    }
+    for(i=0;i<n;i++)
+     {
+    if(a[i]%2==0 && i%2==0)
+    e_sum = e_sum + a[i];
+   Else if (a[i]%2==1 && i%2==1)
+    O_sum = o_Sum +a[i];
+     }
+    System.out.println(e_sum+ " " +o_sum);
+        }
+    }
