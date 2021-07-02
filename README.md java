@@ -1,28 +1,34 @@
 Import java.until.*;
-public class rotated_strings
+public class Bick_racers
  {
   Public static void main (strings []args)
-   {
-   Scanner sc = new scanner(system.in);
-   System.out.println("Enter the two strings");
-   String S1 = sc.nextint();
-   String S2 = sc.nextint();
-
-   If(S1.length() ! = S2.length()) 
-    {
-     System.out.println("No");
+  {
+   Bufferdreader br=New bufferdreader(new input streamreader(system.in));
+   Int racer1_speed,racer2_speed,racer3_speed,racer4_speed,racer5_speed;
+   Int sum;
+   Float avg_speed;
+   
+   System.out.println ("Enter the 5 Bike racers speed");
+   Racer1_speed=integer.parselnt(br.readline());
+   Racer2_speed=integer.parselnt(br.readline());
+   Racer3_speed=integer.parselnt(br.readline());
+   Racer4_speed=integer.parselnt(br.readline());
+   Racer5_speed=integer.parselnt(br.readline());
+   
+   Sum= racer1_speed+racer2_speed+racer3_speed+racer4_speed+racer5_speed;
+   avg_speed= (float)sum/5;
+   
+   System.out.println("Average_speed is:"+avg speed);
+   System.out.println("The qualified racers are:");
+   if(racer1_speed>avg speed)
+      System.out.println("Racer1");
+   if(racer2_speed>avg speed)
+      System.out.println("Racer2");
+   if(racer3_speed>avg speed)
+      System.out.println("Racer3");
+   if(racer4_speed>avg speed)
+      System.out.println("Racer4");
+   if(racer5_speed>avg speed)
+      System.out.println("Racer5");
     }
-   Else
-    {
-    String S3 = S1+S1;
-       If(S3.contains(S2))
-        {
-         System.out.println("yes");
-         }
-         Else
-           {
-           System.out.println("No");
-            }
-          }
-       }
-     }
+ }
