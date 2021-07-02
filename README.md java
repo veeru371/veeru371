@@ -1,21 +1,34 @@
-Import java.until.*,
-Public class simple interest 
-Public static void main (strings []args)
-{
-  Int p,T;
-  Float R,I;
-   Scanner sc= new scanner(system.in);
-   System.out.println("enter principal, time and rate of interest");
-   P=sc.nextint();
-   T=sc.nextint();
-   R=sc.nextfloat();
+Import java.until.*;
+class employee
+ {
+  Public static void main (strings []args)
+   {
+    Int empid;
+    String empname,desg, company;
+    Float salary; 
     
-   I=(p*T*R)/100; 
-   
-   System.out.println("principal ammount:" +p);
-   System.out.println("Time:"+T);
-   System.out.println("Rate of interest:" +R);
+    Scanner sc= new scanner(system.in);
+     
+    System.out.println("enter employee information");
+    System.out.println("enter empid");
+    Empid= sc.nextint();
+    Sc.nextint();
+    System.out.println("enter employee desg");
+    Empdesg = sc.nextint();
+    System.out.println("enter employee company");
+    Emp company= sc.nextint();
+    Sc.nextint();
+    System.out.println("enter employee salary");
+    Emp salary=sc.nextfloat();
     
-   System.out.println("simple interest:" +I);
-   }
- }
+    System.out.println("================");
+    System.out.println("employee information:");
+    System.out.println("employee id:" +empid);
+    System.out.println("employee name:" +empname);
+    System.out.println("employee desg:" +empdesg);
+    System.out.println("employee company:" +empcompany);
+    System.out.println("employee salary:" +empsalary);
+    
+    System.out.println("===============");
+    }
+  }
