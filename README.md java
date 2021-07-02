@@ -1,34 +1,28 @@
 Import java.until.*;
-class employee
+public class rotated_strings
  {
   Public static void main (strings []args)
    {
-    Int empid;
-    String empname,desg, company;
-    Float salary; 
-    
-    Scanner sc= new scanner(system.in);
-     
-    System.out.println("enter employee information");
-    System.out.println("enter empid");
-    Empid= sc.nextint();
-    Sc.nextint();
-    System.out.println("enter employee desg");
-    Empdesg = sc.nextint();
-    System.out.println("enter employee company");
-    Emp company= sc.nextint();
-    Sc.nextint();
-    System.out.println("enter employee salary");
-    Emp salary=sc.nextfloat();
-    
-    System.out.println("================");
-    System.out.println("employee information:");
-    System.out.println("employee id:" +empid);
-    System.out.println("employee name:" +empname);
-    System.out.println("employee desg:" +empdesg);
-    System.out.println("employee company:" +empcompany);
-    System.out.println("employee salary:" +empsalary);
-    
-    System.out.println("===============");
+   Scanner sc = new scanner(system.in);
+   System.out.println("Enter the two strings");
+   String S1 = sc.nextint();
+   String S2 = sc.nextint();
+
+   If(S1.length() ! = S2.length()) 
+    {
+     System.out.println("No");
     }
-  }
+   Else
+    {
+    String S3 = S1+S1;
+       If(S3.contains(S2))
+        {
+         System.out.println("yes");
+         }
+         Else
+           {
+           System.out.println("No");
+            }
+          }
+       }
+     }
