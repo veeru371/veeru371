@@ -1,24 +1,21 @@
 Import java.until.*,
-Public class file 1
+Public class simple interest 
 Public static void main (strings []args)
 {
-Int n,e_sum=0,o_sum=0;
-Scanner object = new scanner(system.in);
-
-System.out.println("Enter the array siZe");
- n=object.next int();
-  Int a[] = new int[n]
-  for(i=0;i<n;i++)
-   {
-   a[i] = object.next int ;
-    }
-    for(i=0;i<n;i++)
-     {
-    if(a[i]%2==0 && i%2==0)
-    e_sum = e_sum + a[i];
-   Else if (a[i]%2==1 && i%2==1)
-    O_sum = o_Sum +a[i];
-     }
-    System.out.println(e_sum+ " " +o_sum);
-        }
-    }
+  Int p,T;
+  Float R,I;
+   Scanner sc= new scanner(system.in);
+   System.out.println("enter principal, time and rate of interest");
+   P=sc.nextint();
+   T=sc.nextint();
+   R=sc.nextfloat();
+    
+   I=(p*T*R)/100; 
+   
+   System.out.println("principal ammount:" +p);
+   System.out.println("Time:"+T);
+   System.out.println("Rate of interest:" +R);
+    
+   System.out.println("simple interest:" +I);
+   }
+ }
