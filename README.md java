@@ -1,34 +1,36 @@
 Import java.until.*;
-public class Bick_racers
+public class Digit_word
  {
-  Public static void main (strings []args)
-  {
-   Bufferdreader br=New bufferdreader(new input streamreader(system.in));
-   Int racer1_speed,racer2_speed,racer3_speed,racer4_speed,racer5_speed;
-   Int sum;
-   Float avg_speed;
-   
-   System.out.println ("Enter the 5 Bike racers speed");
-   Racer1_speed=integer.parselnt(br.readline());
-   Racer2_speed=integer.parselnt(br.readline());
-   Racer3_speed=integer.parselnt(br.readline());
-   Racer4_speed=integer.parselnt(br.readline());
-   Racer5_speed=integer.parselnt(br.readline());
-   
-   Sum= racer1_speed+racer2_speed+racer3_speed+racer4_speed+racer5_speed;
-   avg_speed= (float)sum/5;
-   
-   System.out.println("Average_speed is:"+avg speed);
-   System.out.println("The qualified racers are:");
-   if(racer1_speed>avg speed)
-      System.out.println("Racer1");
-   if(racer2_speed>avg speed)
-      System.out.println("Racer2");
-   if(racer3_speed>avg speed)
-      System.out.println("Racer3");
-   if(racer4_speed>avg speed)
-      System.out.println("Racer4");
-   if(racer5_speed>avg speed)
-      System.out.println("Racer5");
-    }
- }
+  Public static void main (strings args[])
+  
+   {
+     Bufferdreader br=new bufferdreader(new inputstreamreader(system.in));
+     Int num;
+     System.out.println("Enter the digits (0-9)");
+     Num= integer.parselnt(br.readline());
+     
+     if(num==o)
+        System.out.println("Zero");
+    Else if(num==1)
+        System.out.println("one");
+    Else if(num==2)
+        System.out.println("two");
+    Else if(num==3)
+        System.out.println("three");
+    Else if(num==4)
+        System.out.println("four");
+    Else if(num==5)
+        System.out.println("five");
+    Else if(num==6)
+        System.out.println("six");
+    Else if(num==7)
+        System.out.println("seven");
+    Else if(num==8)
+        System.out.println("eight");
+    Else if(num==9)
+        System.out.println("nine");
+    
+     Else
+        System.out.println("enter a valid statement");
+      }
+   }
