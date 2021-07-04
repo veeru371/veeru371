@@ -1,23 +1,17 @@
-Import java.until.*;
-public class Digit_word
+Class test
+{
+ Public test
  {
-  Public static void main (strings args[])
-  
-   {
-    
-    Bufferedreader br= new bufferedreader(new input stream reader(system.in));
-    int num,count=0,I;
-    System.out.println("enter a number to find it is prime or not");
-    num= new integer.parselnt(br.readline());
-    
-    for(i=0;i<num;i++)
-     {
-       if(num%i==0)
-         Count++;
-     }
-      if(count==2)
-         System.out.println("Given number"+num" is prime");
-      Else
-         System.out.iprintln("Given number"+num" is not prime");
-      }
+  System.out.println("Default constructor");
+  System.out.println("Welcome to Aditya");
+  }
+  Public test(string name)
+  {
+   System.out.println("parameterized constructor");
+   System.out.println("welcome to:"+name);
    }
+   Public static void main (string args[])
+   Test1= new test();
+   Test2= new test("veeru");
+   }
+  }
