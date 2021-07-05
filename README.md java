@@ -1,17 +1,34 @@
-Class test
+Class string buffer_Demo
 {
- Public test
- {
-  System.out.println("Default constructor");
-  System.out.println("Welcome to Aditya");
-  }
-  Public test(string name)
+ Public static void main (string args[])
   {
-   System.out.println("parameterized constructor");
-   System.out.println("welcome to:"+name);
-   }
-   Public static void main (string args[])
-   Test1= new test();
-   Test2= new test("veeru");
-   }
+   String buffer S1= new string buffer();
+   System.out.println(S1.capacity());
+   System.out.println(s1.length ());
+   
+   String buffer S2= new string buffer ("Welcome");
+   System.out.println(S2.capacity());
+   
+   System.out.println(S2.charaAt(4));
+    
+   S2.set charAt(4,"a");
+   System.out.println("S2");
+   
+   s2.delete charAt(4);
+   System.out.println("S2");
+
+   S2.append("Anjana");
+   System.out.println("S2");
+   
+   s2.insert(4,"a");
+   System.out.println("S2");
+   
+   s2.delete (8,14)
+   System.out.println("S2");
+
+   S2.reverse();
+   System.out.println("S2")
+  
   }
+
+}
