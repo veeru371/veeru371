@@ -1,52 +1,39 @@
-Import java.util.*;
-Class box_demo
- {
-   int l,b,area;
+import java.io.*;
+Class season
+{
+  Public static void main(strings args[])
+   {
+     Bufferdreader br= new bufferdreader(new input streamReader(system.in));
+     int month;
+     System.out.println("Enter a month number");
+     month=interger.parselnt(br.readLine());
+     Switch(month)
+     {
+        Case1;
+        Case2;
+        Case3;
+          System.out.println("summer");
+          break;
 
-      Public box_Demo()
-       {
-         System.out.println("Default");
-         l=b=1;
-       }
-    
-      Public box_Demo(int m)
-      {
-        System.out.println("Square");
-        l=b=m;
-      }
-    
-      Public box_Demo(int m,int n)
-      {
-        System.out.println("Rectangle");
-        l=m;
-        b=n;
-      }
+        Case4;
+        Case5;
+        Case6;
+          System.out.println("Rainy");
+          break;
+
+        Case7;
+        Case8;
+        Case9;
+          System.out.println("winter");
+          break;
      
-     Public void cal_Area()
-     {
-       Area=l*b;
-       System.out.println("area:" +area);
-      }
-   
-    Public static void main (string arga[])
-     {
-      Scanner sc=new scanner(system.in);
-      Int m;
-      Int n;
-      System.out.println("Enter the two numbers");
-      m=sc.nextint();
-      n=sc.nextint();
+        default:
+          System.out.println("Enter a valid statement");
+          break;
       
-     box_Demo b1= new box_Demo(m);
-     b1.cal_Area();
-    
-     box_Demo b2= new box_Demo(m,n);
-     b2.cal_Area();
-
-     box_Demo b3= new box_Demo();
-     b3.cal_Area();
-   }
- }
+      }
+    }
+  }
 
      
 
