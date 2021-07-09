@@ -1,40 +1,20 @@
-import java.io.*;
-Class season
+Import Java.util.*;
+Public class MBA_chllange
 {
-  Public static void main(strings args[])
-   {
-     Bufferdreader br= new bufferdreader(new input streamReader(system.in));
-     int month;
-     System.out.println("Enter a month number");
-     month=interger.parselnt(br.readLine());
-     Switch(month)
-     {
-        Case1;
-        Case2;
-        Case3;
-          System.out.println("summer");
-          break;
+ Public static void main(strings args []);
+  {
+     Scanner sc=new scanner(system.in);
 
-        Case4;
-        Case5;
-        Case6;
-          System.out.println("Rainy");
-          break;
+     System.out.println("input1:");
+     Int n=sc.nextint();
 
-        Case7;
-        Case8;
-        Case9;
-          System.out.println("winter");
-          break;
-     
-        default:
-          System.out.println("Enter a valid statement");
-          break;
-      
-      }
-    }
-  }
+     System.out.println("input2:");
+     Int k=sc.nextint();
 
-     
+     Int s= (int)math.pow(n,k);
+     Int rem=s%10;
 
+     System.out.println("rem");
+   }
+ }
 
