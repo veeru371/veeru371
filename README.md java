@@ -1,20 +1,32 @@
 Import Java.util.*;
-Public class MBA_chllange
+Public class NCR
 {
- Public static void main(strings args []);
+  Static int fact(int n)
+   {
+     Int fact=1;
+     for(i=n;i>=1;i--)
+      {
+        Fact=fact*i;
+      }
+       return fact;
+    }
+   Public static void main(strings args []);
   {
-     Scanner sc=new scanner(system.in);
-
-     System.out.println("input1:");
-     Int n=sc.nextint();
-
-     System.out.println("input2:");
-     Int k=sc.nextint();
-
-     Int s= (int)math.pow(n,k);
-     Int rem=s%10;
-
-     System.out.println("rem");
+    Scanner sc=new scanner(system.in);
+   
+    System.out.println("input1:");
+    Int n=sc.nextint();
+  
+    System.out.println("input2:");
+    Int r=sc.nextint();
+ 
+    System.out.println("input3:");
+    Double m=sc.nextdouble();
+  
+    Int NCR=(int)(fact(n)/fact(r)*fact(n-r))%m;
+    System.out.println("NCR");
+   
    }
+ 
  }
 
