@@ -1,48 +1,26 @@
-import java.awt.*;
-Class checkBoxdemo extends frame 
- {
-       CheckBox cb1,cb2,cb3,cb4,r1,r2;
-       CheckBoxgroup cg;
-       Label l1,l2;
-       Public checkBoxDemo()
-        
-         {
-            SetLayout(new flow Layout());
-            l1=new label("Qualification");
-            l2=new label("Gender");
-            C1=new checkbox("SSC",true);
-            C2=new checkBox("Inter");
-            C3=new checkBox("Btech");
-            C4=new checkBox("Degree");
-
-            add(l1);
-            add(C1);
-            add(C2);
-            add(C3);
-            add(C4);
-            System.out.println(cb1.getLabel());
-            System.out.println(Cb2.getstate());
-
-            checkBox Group cg=new checkBox Group();
-            Checkbox r1=new checkBox("male",cg,true);
-            Checkbox r2=new checkBox("female",cg,false);
-            add(l2);
-            add(r1);
-            add(r2);
-        }
-       Public static void main(strings args[])
-       {
-         CheckBox Demo f=new checkBox Demo();
-         f.setvisible("true");
-         f.settitle("frame1");
-         f.setBackGround(colour.Blue);
-         f.setSize(500,500);
-         f.setlayout(new flow layout ());
-
+Package mypack;
+Public class compare
+  {
+    Public int getmax(int n,int m)
+     {
+       if(n>m)
+         return n;
+       Else
+         return m;
+     }
+    Public int getmin(int n,int m)
+     {
+       if(n<m)
+         return n;
+       Else
+         return m;
+     }
+    Public void get equal(int n,int m)
+     {
+       if(n==m)
+         System.out.println("Equal");
+       Else
+         System.out.println("Not Equal");
       }
-  
   }
-
-
-
 
