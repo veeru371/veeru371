@@ -1,60 +1,10 @@
-import java.util.*;
-Public class zeroes 
- {
-   Public static void main(strings arga[])
-    {
-      Scanner sc= new scanner(system.in);
-      System.out.println("Enter the row and col sixe:");
-       int n=sc.nextint();
-       int m=sc.nextint();
-       System.out.println("Enter" "+n+"x"+m+" "Elements");
-       int mat[][]=new int[n][m];
-       int row[]  =new int[n];
-       int col[]  =new int[m];
-     
-       for(i=0;i<n;i++)
-         {
-           for(j=0;j<m;j++)
-             { 
-                mat[i][j]=sc.nextint;
-                if(mat[i][j]==0)
-                  {
-                    row[i]=1;
-                    Col[j]=1;
-                   }
-              }
-
-         }
-           for(i=0;i<n;i++)
-             {
-               if(row[i]==1)
-                 {
-                   for(j=0;j<m;j++)
-                     {
-                        mat[i][j]=0;
-                     }
-                 }
-             }
-           for(j=0;j<m;j++)
-             {
-               if(col==1)
-                {
-                  for(i=0;i<n;i++)
-                   {
-                     mat[i][j]=0;
-                   }
-                }
-             }
-             for(i=0;i<n;i++)
-               {
-                 for(j=0;j<m;j++)
-                   {
-                     System.out.println(mat[i][j]+" ");
-                   }
-                 System.out.ptintln("============");
-               }
-      }
-  }
+a=int(input)
+b=int(input)
+C=int(input)
+Sum=a+b+c
+avg=sum/3
+Print("Value of sum is",sum)
+Print ("value of avg is",avg)
 
 
 
